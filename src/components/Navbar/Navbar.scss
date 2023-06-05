@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navList {
+  width: 1600px;
+  height: 120px;
+  margin: 0;
+  padding: 0px 32px;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navListLinks {
+  max-width: 1600px;
+  height: 120px;
+  margin: 0;
+  padding: 0px 32px;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navListItem {
+  text-align: start;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+.listItem {
+  cursor: pointer;
+}
